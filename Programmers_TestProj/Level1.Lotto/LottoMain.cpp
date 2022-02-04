@@ -60,8 +60,6 @@ lottos    win_nums    result
 
 #include "LottoMain.hpp"
 
-#include <algorithm>
-
 // MARK: - Public
 void LottoMain::doTest() {
     cout << "hello daun world!" << endl;

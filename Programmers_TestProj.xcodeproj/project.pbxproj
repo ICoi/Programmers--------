@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D51915C127AA3D9C009F836F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D51915C027AA3D9C009F836F /* main.cpp */; };
 		D51915CA27AA3DE6009F836F /* LottoMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D51915C827AA3DE6009F836F /* LottoMain.cpp */; };
+		D51915CE27AA4680009F836F /* ReportMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D51915CC27AA4680009F836F /* ReportMain.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		D51915C027AA3D9C009F836F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		D51915C827AA3DE6009F836F /* LottoMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LottoMain.cpp; sourceTree = "<group>"; };
 		D51915C927AA3DE6009F836F /* LottoMain.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LottoMain.hpp; sourceTree = "<group>"; };
+		D51915CC27AA4680009F836F /* ReportMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReportMain.cpp; sourceTree = "<group>"; };
+		D51915CD27AA4680009F836F /* ReportMain.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReportMain.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 		D51915BF27AA3D9C009F836F /* Programmers_TestProj */ = {
 			isa = PBXGroup;
 			children = (
+				D51915CB27AA466D009F836F /* Level1.ResultOfReport */,
 				D51915C727AA3DC2009F836F /* Level1.Lotto */,
 				D51915C027AA3D9C009F836F /* main.cpp */,
 			);
@@ -73,6 +77,15 @@
 				D51915C927AA3DE6009F836F /* LottoMain.hpp */,
 			);
 			path = Level1.Lotto;
+			sourceTree = "<group>";
+		};
+		D51915CB27AA466D009F836F /* Level1.ResultOfReport */ = {
+			isa = PBXGroup;
+			children = (
+				D51915CC27AA4680009F836F /* ReportMain.cpp */,
+				D51915CD27AA4680009F836F /* ReportMain.hpp */,
+			);
+			path = Level1.ResultOfReport;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D51915CE27AA4680009F836F /* ReportMain.cpp in Sources */,
 				D51915C127AA3D9C009F836F /* main.cpp in Sources */,
 				D51915CA27AA3DE6009F836F /* LottoMain.cpp in Sources */,
 			);
